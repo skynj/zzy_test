@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,li{
+	list-style: none;
+}
+.clear{
+	clear: both;
+}
+.msgList{
+	width:400px;
+	height:300px;
+	margin:40px auto 0px;
+}
+.msgList li{
+	float:left;
+	width:25%;
+	background:#888888;
+	color:#fff;
+	text-align: center;
+	font-size:15px;
+	height:30px;
+	line-height: 30px;
+	cursor: pointer;
+}
+.msgList li:hover,.msgList li.active{
+	background:orange;
+	color:#fff;
+}
+.msgMain{
+	margin-top:30px;
+}
